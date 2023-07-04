@@ -1,7 +1,7 @@
 # Roadmap para Desarrollador Back-end con Java
 
 <p align="center" >
-     <img width="200" heigth="200" src="ima">
+     <img width="200" heigth="200" src="images/logo.png">
 </p>
 
 Este es un roadmap que proporciona una guía de los temas y habilidades importantes para convertirse en un desarrollador back-end utilizando el lenguaje de programación Java. El objetivo de este roadmap es proporcionar una estructura para aprender y desarrollar las habilidades necesarias en el campo del desarrollo back-end.
@@ -82,4 +82,8 @@ Este es un roadmap que proporciona una guía de los temas y habilidades importan
 
 ## Seguridad en la nube
 - Mejores prácticas de seguridad para aplicaciones y servicios en la nube.
-- Autenticación,
+- Autenticación, etc
+
+Emerson González
+
+[![img](https://camo.githubusercontent.com/c00f87aeebbec37f3ee0857cc4c20b21fefde8a96caf4744383ebfe44a47fe3f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d2532333030373742353f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465)](https://www.linkedin.com/in/emerson-gonzalez-developer/)
