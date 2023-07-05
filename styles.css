@@ -28,11 +28,16 @@ h1 {
 .accordion-header {
     background-color: #2779a7;
     color: #fff;
+    text-align: center;
     padding: 10px;
     margin-top: 10px;
     cursor: pointer;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+}
+
+.icon {
+    margin: 5px;
 }
 
 .accordion-content {
