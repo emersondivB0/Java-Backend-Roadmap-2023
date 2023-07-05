@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("images/Wallpaper1.png");
+    background-image: url("/images/Wallpaper1.png");
     background-color: rgba(0, 0, 0, 0.5);
     /* Ajusta el valor alfa para la transparencia */
     background-repeat: no-repeat;
@@ -12,6 +12,52 @@ body {
     background-attachment: fixed;
     /* Fija la imagen de fondo */
     color: #fff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-box {
+    width: 4em;
+    height: 2em;
+    background-color: rgba(39, 121, 167, 0.8);
+    position: absolute;
+    top: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-box-left {
+    left: 10px;
+}
+
+.nav-box-right {
+    right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .roadmap {
@@ -63,9 +109,25 @@ h1 {
 }
 
 footer {
-    background-color: #2779a7;
-    padding: 10px;
+    background-color: rgba(39, 121, 167, 0.8);
+    padding: 1px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em;
+    height: 2em;
+}
+
+.social-icons a {
+    margin: 0 1em;
+    color: #fff;
 }
 
 footer p {
