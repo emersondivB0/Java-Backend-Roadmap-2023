@@ -23,7 +23,8 @@ function changeLanguage(language) {
     // Aquí se utiliza el almacenamiento local como ejemplo
     localStorage.setItem('language', language);
      // Redireccionar al usuario a la página correspondiente al idioma seleccionado
-    window.location.href = '/' + language + '/index.html';
+     var path = language === 'es' ? '/':'/en/';
+    window.location.href = path;
   }
 }
  // Cargar idioma almacenado previamente en el almacenamiento local (si existe)
